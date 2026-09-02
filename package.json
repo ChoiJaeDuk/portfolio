@@ -1,13 +1,13 @@
 {
-  "name": "egic",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3333",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3333",
     "lint": "next lint",
-    "dev:debug": "set NODE_OPTIONS=--inspect && next dev"
+    "dev:debug": "set NODE_OPTIONS=--inspect && next dev -p 3333"
   },
   "dependencies": {
     "mariadb": "^3.4.2",

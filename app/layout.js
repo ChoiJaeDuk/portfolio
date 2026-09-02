@@ -16,7 +16,7 @@ import Footer from '@components/layout/Footer';
 import { getProfile } from '@/common/actions';
 
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3333'),
   title: {
     default: '포트폴리오',
     template: '%s · 포트폴리오',
@@ -37,7 +37,7 @@ export const viewport = {
 const THEME_SCRIPT = `
 (function () {
   try {
-    var saved = localStorage.getItem('egic-theme');
+    var saved = localStorage.getItem('portfolio-theme');
     var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
     document.documentElement.setAttribute('data-theme', theme);
   } catch (e) {

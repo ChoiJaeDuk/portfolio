@@ -10,7 +10,7 @@ import { createContext, useCallback, useContext, useEffect, useState } from 'rea
 
 const ThemeContext = createContext({ theme: 'dark', toggleTheme: () => {} });
 
-export const STORAGE_KEY = 'egic-theme';
+export const STORAGE_KEY = 'portfolio-theme';
 
 export function ThemeProvider({ children }) {
 

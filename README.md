@@ -7,12 +7,12 @@ Next.js(App Router) · React · Node.js 기반 개인 포트폴리오 사이트.
 
 ```bash
 npm install
-npm run dev          # http://localhost:3000
+npm run dev          # http://localhost:3333
 ```
 
 ```bash
 npm run build && npm run start    # 운영 빌드
-pm2 start ecosystem.config.cjs    # pm2 기동 (13100 포트)
+pm2 start ecosystem.config.cjs    # pm2 기동 (3333 포트)
 ```
 
 ## 폴더 구조
