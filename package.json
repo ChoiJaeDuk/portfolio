@@ -1,0 +1,25 @@
+{
+  "name": "egic",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "dev:debug": "set NODE_OPTIONS=--inspect && next dev"
+  },
+  "dependencies": {
+    "mariadb": "^3.4.2",
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "server-only": "^0.0.1",
+    "sql-template-strings": "^2.2.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "^15.5.4"
+  }
+}
